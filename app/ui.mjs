@@ -132,7 +132,7 @@ download.addEventListener('click', () => {
 render();
 
 async function showTelegraphRuns() {
-  const response = await fetch('/telegraph-runs.json');
+  const response = await fetch(new URL('./telegraph-runs.json', import.meta.url));
   if (!response.ok) return;
   const runs = await response.json();
   if (!runs.length) return;
