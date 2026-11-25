@@ -6,6 +6,7 @@
 - Intent **WEB_SEARCH_GENERAL**
 - Deadline **2 December 2026 at 07:59 Malaysia time**
 - Rules and submission [Telegraph Season II](https://hackathon.telegraphprotocol.com/rules) · [Mission brief](https://hackathon.telegraphprotocol.com/missions/asset-management)
+- Judge links [Interactive research desk](https://whyme-labs.github.io/delta-intelligence/) · [Walkthrough and transcript](https://whyme-labs.github.io/delta-intelligence/demo.html)
 
 ## Short public summary
 
