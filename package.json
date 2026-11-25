@@ -1,0 +1,21 @@
+{
+  "name": "delta-intelligence",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
+    "verify:sources": "node scripts/verify-sources.mjs",
+    "telegraph": "node scripts/telegraph.mjs"
+  },
+  "dependencies": {
+    "@x402/core": "2.32.0",
+    "@x402/evm": "2.32.0",
+    "viem": "2.58.6"
+  }
+}

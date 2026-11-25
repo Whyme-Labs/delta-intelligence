@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Source-backed Malaysian manufacturing intelligence for rooftop solar prospecting.">
+  <title>Delta Intelligence | Malaysia industry desk</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wordmark"><span class="brand-mark" aria-hidden="true">Δ</span><span>Delta Intelligence</span></div>
+    <div class="top-meta"><span class="status-dot" aria-hidden="true"></span> Source snapshot <time datetime="2026-11-25">25 Nov 2026</time></div>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <p class="edition">Malaysia industry desk</p>
+      <h1 id="title">Factory expansion brief</h1>
+      <p class="lede">Find documented manufacturing milestones and decide which sites warrant a rooftop solar assessment.</p>
+    </section>
+    <details class="network-evidence" id="network-evidence" hidden>
+      <summary>Review Telegraph testnet purchases</summary>
+      <div id="network-runs"></div>
+    </details>
+    <div class="desk">
+      <aside class="filters" aria-label="Research filters">
+        <form id="filters">
+          <h2>Research scope</h2>
+          <label for="query">Company or keywords</label>
+          <input id="query" name="query" type="search" placeholder="e.g. kilang semikonduktor">
+          <div class="split">
+            <div>
+              <label for="region">State</label>
+              <select id="region" name="region">
+                <option value="">All states</option>
+                <option>Penang</option><option>Johor</option><option>Melaka</option>
+              </select>
+            </div>
+            <div>
+              <label for="stage">Milestone</label>
+              <select id="stage" name="stage">
+                <option value="">All milestones</option>
+                <option value="announced">Announced</option>
+                <option value="groundbreaking">Groundbreaking</option>
+                <option value="phase-opened">Phase opened</option>
+                <option value="opened">Opened</option>
+                <option value="expanded">Expanded</option>
+                <option value="energy-update">Solar installed</option>
+              </select>
+            </div>
+          </div>
+          <p class="date-heading">Source publication dates</p>
+          <div class="split date-fields">
+            <div><label for="since">From</label><input type="date" id="since" name="since" value="2026-01-01" required></div>
+            <div><label for="as-of">Through</label><input type="date" id="as-of" name="asOf" value="2026-11-25" max="2026-11-25" required></div>
+          </div>
+          <button class="primary" type="submit">Run research <span aria-hidden="true">→</span></button>
+        </form>
+        <div class="shortcuts">
+          <h3>Try a query</h3>
+          <button type="button" data-preset="historical">Eppendorf before groundbreaking <span aria-hidden="true">↗</span></button>
+          <button type="button" data-preset="johor">Johor manufacturing since 2025 <span aria-hidden="true">↗</span></button>
+          <button type="button" data-preset="solar">Honda’s existing solar <span aria-hidden="true">↗</span></button>
+        </div>
+      </aside>
+      <section class="signals" aria-labelledby="signals-title">
+        <div class="signal-head">
+          <div><h2 id="signals-title">Facility signals</h2><p id="result-count" role="status" aria-live="polite"></p></div>
+          <button type="button" id="export" class="small-button">Download JSON</button>
+        </div>
+        <div id="signals"></div>
+      </section>
+      <aside class="evidence" aria-label="Evidence inspector" id="evidence" tabindex="-1"></aside>
+    </div>
+  </main>
+  <template id="signal-template">
+    <article class="signal">
+      <button class="signal-select" type="button" aria-pressed="false">
+        <span class="signal-top"><span class="region"></span><time></time></span>
+        <span class="company"></span>
+        <span class="observation"></span>
+        <span class="signal-bottom"><span class="stage"></span><span class="decision"></span><span class="row-arrow" aria-hidden="true">↗</span></span>
+      </button>
+    </article>
+  </template>
+  <script type="module" src="/ui.mjs"></script>
+</body>
+</html>
