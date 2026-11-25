@@ -1,0 +1,136 @@
+[
+  {
+    "mode": "base-sepolia-x402",
+    "intent": "WEB_SEARCH_GENERAL",
+    "question": "Find InvestPenang’s exact article titled Eppendorf Breaks Ground on New Production Site in Penang, Malaysia, dated 12 Nov 2026. Return the specific press-release article URL and the milestone it reports.",
+    "settlement": {
+      "success": true,
+      "payer": "0x725e32c2d9791f216f7077f129ae7f373b208a1d",
+      "transaction": "0xfe24600c9ac411e55ee05fbc749ad87d51016655b4526821769369b6f6015906",
+      "network": "eip155:84532"
+    },
+    "receipt": {
+      "receipt_hash": "0xba48b97e26083ad1c566ac71986fd4b0571cfe66ea9ff29e53d484259b624946",
+      "rail": "x402",
+      "payer": "0x725e32c2d9791f216f7077f129ae7f373b208a1d",
+      "miner": "6121",
+      "intent": "WEB_SEARCH_GENERAL",
+      "amount_uusdc": "10000",
+      "epoch_id": 0,
+      "settlement": "onchain",
+      "chain": "eip155:84532",
+      "tx_hash": "0xfe24600c9ac411e55ee05fbc749ad87d51016655b4526821769369b6f6015906",
+      "timestamp": 1795589998
+    },
+    "signal": {
+      "url": "https://devnode.telegraphprotocol.com/engine/v1/signal/0x4eed05b61a281030c3f10b76e7c4d54ad6b08c72c1785c6f140b8696354f9af6",
+      "hash": "0x4eed05b61a281030c3f10b76e7c4d54ad6b08c72c1785c6f140b8696354f9af6",
+      "nodeVerified": true,
+      "independentlyHashed": true
+    },
+    "transfer": {
+      "verified": true,
+      "url": "https://sepolia.basescan.org/tx/0xfe24600c9ac411e55ee05fbc749ad87d51016655b4526821769369b6f6015906"
+    },
+    "miner": {
+      "id": "9002",
+      "name": "TxLens",
+      "sources": [
+        "https://investpenang.gov.my/press-release-eppendorf-breaks-ground-on-new-production-site-in-penang-malaysia"
+      ]
+    },
+    "report": {
+      "query": "Eppendorf",
+      "region": "",
+      "stage": "",
+      "since": "2026-01-01",
+      "asOf": "2026-11-25",
+      "results": [
+        {
+          "id": "eppendorf-groundbreaking",
+          "site": "eppendorf-bandar-cassia",
+          "company": "Eppendorf",
+          "aliases": [
+            "Eppendorf SE",
+            "Eppendorf Malaysia"
+          ],
+          "location": "Bandar Cassia",
+          "region": "Penang",
+          "sector": "Lab equipment",
+          "stage": "groundbreaking",
+          "published": "2026-11-12",
+          "eventDate": "2026-11-12",
+          "sizeSqFt": null,
+          "solar": null,
+          "observation": "Eppendorf broke ground on a production site at Bandar Cassia Technology Park.",
+          "quote": "celebrated the groundbreaking for its new production facility at Bandar Cassia Technology Park",
+          "dateAnchor": "November 12, 2026",
+          "publisher": "InvestPenang",
+          "url": "https://investpenang.gov.my/press-release-eppendorf-breaks-ground-on-new-production-site-in-penang-malaysia/",
+          "decision": "investigate",
+          "reason": "An early facility milestone is documented. Check the construction programme, roof drawings and the facility owner’s energy plans.",
+          "history": [
+            {
+              "id": "eppendorf-groundbreaking",
+              "stage": "groundbreaking",
+              "published": "2026-11-12",
+              "publisher": "InvestPenang",
+              "url": "https://investpenang.gov.my/press-release-eppendorf-breaks-ground-on-new-production-site-in-penang-malaysia/"
+            }
+          ]
+        }
+      ],
+      "withheld": 0
+    }
+  },
+  {
+    "mode": "base-sepolia-x402",
+    "intent": "WEB_SEARCH_GENERAL",
+    "question": "Find the MIDA release for the MKS Supercenter Factory in Penang, June 2026. Return its exact official source URL and publication date.",
+    "settlement": {
+      "success": true,
+      "payer": "0x725e32c2d9791f216f7077f129ae7f373b208a1d",
+      "transaction": "0xe7c468bf55dbd78782ccfbea10d6c17cff906a646225dfd07fc4535ee96d6d97",
+      "network": "eip155:84532"
+    },
+    "receipt": {
+      "receipt_hash": "0xacfc5feedccf78b70dc5b634d6be9f652ab0ab95f4bfde19a0106128360593a6",
+      "rail": "x402",
+      "payer": "0x725e32c2d9791f216f7077f129ae7f373b208a1d",
+      "miner": "6121",
+      "intent": "WEB_SEARCH_GENERAL",
+      "amount_uusdc": "10000",
+      "epoch_id": 0,
+      "settlement": "onchain",
+      "chain": "eip155:84532",
+      "tx_hash": "0xe7c468bf55dbd78782ccfbea10d6c17cff906a646225dfd07fc4535ee96d6d97",
+      "timestamp": 1795589891
+    },
+    "signal": {
+      "url": "https://devnode.telegraphprotocol.com/engine/v1/signal/0x94095fc03b5fc946fbcf21be357e25557cd1d6626b6ddfa97a5f86cbfc19da64",
+      "hash": "0x94095fc03b5fc946fbcf21be357e25557cd1d6626b6ddfa97a5f86cbfc19da64",
+      "nodeVerified": true,
+      "independentlyHashed": true
+    },
+    "transfer": {
+      "verified": true,
+      "url": "https://sepolia.basescan.org/tx/0xe7c468bf55dbd78782ccfbea10d6c17cff906a646225dfd07fc4535ee96d6d97"
+    },
+    "miner": {
+      "id": "9002",
+      "name": "TxLens",
+      "sources": [
+        "https://www.mida.gov.my/media-and-events/announcement-media-release"
+      ]
+    },
+    "report": {
+      "query": "MKS",
+      "region": "",
+      "stage": "",
+      "since": "2026-01-01",
+      "asOf": "2026-11-25",
+      "results": [],
+      "withheld": 0
+    }
+  }
+]
